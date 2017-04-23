@@ -7,6 +7,7 @@ end
 
 gem "simple_calendar", "~> 2.0"
 
+gem 'cancancan', '~> 1.10'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
