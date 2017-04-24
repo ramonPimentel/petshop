@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+@media screen and (max-width: 768px) {
+  .simple-calendar table {
+    border: none;
+  }
+
+  .table.table-striped > thead {
+    display: none;
+  }
+
+  .table.table-striped > tbody > tr > td.prev-month {
+    display: none;
+  }
+
+  .table.table-striped > tbody > tr > td {
+    width: 100%;
+    display: block;
+    margin: 0;
+    height: auto;
+    border: 1px solid #ccc;
+  } 
+}
