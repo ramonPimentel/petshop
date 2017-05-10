@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   # devise_for :users
+  namespace :v1 do
+    resources :clients
+  end
+  resources :home
   resources :meetings
   resources :simple_calendar
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
